@@ -24,12 +24,28 @@
         android:layout_height="match_parent"
         android:padding="@dimen/activity_margin"/>
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/fab"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_margin="@dimen/fab_margin"-->
+        <!--android:src="@drawable/ic_add_pet"/>-->
+
+    <Button
+        android:id="@+id/add_pet_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_margin="@dimen/fab_margin"
-        android:src="@drawable/ic_add_pet"/>
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:text="@string/add_pet"
+        android:textColor="#fff"
+        android:shadowRadius="10dp"
+        android:background="@color/colorAccent"/>
+
 </RelativeLayout>
